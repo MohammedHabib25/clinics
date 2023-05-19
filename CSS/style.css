@@ -1,0 +1,1430 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height:90px;
+    background-color:#1C95C0;
+    background-image: linear-gradient(180deg, #1C95C0, #70d0f3);
+    font-weight: bolder
+}
+.topnav a:hover {
+    border-bottom: 3px solid #091A20;
+}
+.navbar-brand{
+    margin-left: 110px;
+}
+.nav-item{
+    /* margin: 0 2%; */
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.logo-img{
+    margin-left: 120px;
+}
+#navbarDropdown{
+    color: #fff;
+}
+.form-inline button{
+    width: 110px;
+    height: 44px;
+    color: #091A20;
+    background-color: #1C95C0; 
+    background-image: linear-gradient(0deg, #1C95C0, #FFFF);
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+}
+/* ///////home////////////// */
+.cont-home{
+    margin-top: -660px;
+}
+.par1{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.7;
+    text-align: left;
+    word-spacing: 1.7;
+    text-transform: uppercase;
+}
+.par2{
+    color: #091A20;
+    font-weight:550;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: left;
+    word-spacing: 1;
+    text-transform: capitalize;
+}
+.form-inline-home  {
+    text-align: left;
+    margin-left: -60px; 
+}
+.form-inline-home p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+   margin-left: 180px;
+   margin-top: -40px;
+}
+.form-inline-home button{
+    width: 110px;
+    height: 44px;
+    background-color: #1C95C0; 
+    background-image: linear-gradient(0deg, #1C95C0, #FFFF);
+    text-align:center;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+    margin-left: -40px;
+}
+.bi-video{
+    color: #1C95C0;
+}
+
+/* ///about//// */
+.cont-about{
+    margin-left: 6px;
+    margin-top: -54px;
+}
+.containe h1{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -560px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.paragraph{
+    width: 540px;
+    height: 240px; 
+    color: #FFFFFF;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: left;
+}
+.read{
+    position:absolute;
+    margin-left: 180px;
+    margin-top: 12px;
+    border-radius: 10px;
+    border: white dashed 2px;
+    background-color: Transparent;
+    padding: 8px 20px;
+    font-weight: bold;
+    color: black;
+}
+.par-about{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: left;
+    word-spacing: 1.7;
+    text-transform: uppercase;
+}
+/* ////////////services////////////////////// */
+.ser-clinic{
+    margin-top: -920px;
+    margin-bottom: 420px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.continer-s{
+ width: 40%;
+ float: right;
+ margin-right: 20px;
+ margin-top: -290px;
+ margin-bottom: 120px;
+}
+.serv-c{
+    display:block;
+    color: #fff;
+    font-size: 24px;
+    text-transform: capitalize;
+    text-align: left;
+    line-height: 1.6;
+    margin-left: 270px;
+    margin-top: -120px;
+
+}
+.services-cont{
+    width: 44%;
+    margin-top: -310px;
+    float: right;
+}
+.services-img{
+    margin-top: 108px;
+}
+.clinic-head{
+    margin-top: -710px;
+    text-align: center;
+    color: #091A20;
+    font-weight: bold;
+    margin-left:590px;
+    text-transform: uppercase;
+}
+.personl-item{
+    width: 240px;
+    height: 320px;
+    border-radius: 3%;
+    background-color: #FFFFFF;
+    background-position: right;
+    float: right;
+    padding:18px;
+    /* margin-bottom: 120px; */
+    margin-right: 36px;
+}
+.personl-box{
+    text-align: center;
+    margin-top: 6px;
+     font-size: 24px;
+     font-weight: 600;
+     color: #091A20;
+     font-family: 'Roboto', sans-serif;
+     text-transform: uppercase;  
+}
+.personl-item{
+    width: 80%;
+    height: 240px;
+    float: right;
+    margin-top: 30px;
+    position: relative;
+    padding:18px;
+}
+.personl-item img{
+    width: 100%;
+}
+.personl-item .tem-content{
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    height:100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 1;
+    visibility: hidden;
+    transition: 1s;
+}
+.personl-item:hover .tem-content{
+    opacity:1;
+    visibility: visible;
+}
+
+ .tem-content .tem-info{
+    position: absolute;
+    left:50%;
+    top:50%;
+    width: 60%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.tem-content-title{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    position: relative;
+    top: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s ,opacity .5s;
+    transition-delay: .4s;
+}
+.personl-item:hover .tem-content-title{
+
+    top:0;
+    opacity: 1;
+    visibility: visible;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+.personl-item:hover .tem-content {
+   top:0;
+   opacity: 1;
+   visibility: visible;
+} 
+/* //////////////////////clinic/////////// */
+.clinic-heading{
+    color: #091A20;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -700px;
+}
+.clinic-heading-c{
+    color: #091A20;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -770px;
+}
+.card-deck{
+    margin-top: 60px;
+    margin-left: -470px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+.card-title-h2{
+    margin-top: 80px;
+    color: #091A20;
+    text-transform: capitalize;
+}
+.patient-cont{
+    width: 60%;
+    margin-top: 18px;
+    float:right;
+    margin-right: 94px;
+}
+.patient-img{
+    width: 60%;
+    height: 30%;
+    margin-top: -60px;
+    text-align: center;
+}
+.navNa{
+    justify-content: center;
+    align-items: center;
+    margin-left: 36px;
+    margin-top: 22px;
+}
+.navigation{
+    position: relative;
+    width: 80px;
+    height: 360px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.navigation ul li{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
+.navigation ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+} 
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 75px;
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+    color: #091A20;
+}
+/* ///////////////contact us/////////////////// */
+.contact-img{
+margin-top: -6px;
+}
+.contact-head{
+    text-align: center;
+    text-transform: uppercase;
+    color: #091A20;
+    font-weight: bold;
+    margin-top: -888px;
+}
+.card-contact{
+    float: right;
+    /* margin-right: 30px; */
+    border-radius: 16px;
+ margin-top: 50px;
+}
+.card-img-top{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin-top: -2%;
+    margin-left: 200px;
+}
+.button-s{
+    color: #fff;
+    background-color: #10556f;
+}
+.form-group input{
+     border: 2px solid #1C95C0;
+}
+.form-control-2{
+    width: 96%;
+    height: 40px;
+    margin-left: 50px;
+    padding-left: 12px;
+}
+.btn-co{
+    width: 45%;
+    height: 30px;
+    color: #fff;
+    background-color: #10556f;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    margin-left: 130px;
+}
+.form-group textarea{
+     margin-top: 10px;
+     border: 2px solid #1C95C0;
+     width: 96%;
+     height: 100px;
+     margin-left: 50px;
+}
+.conttainer-c-img{
+    width: 25%;
+    height: 50%;
+    margin-left: 300px;
+  }
+  .p-cont{
+    color: #fff;
+    margin-left: 30px;
+    font-size: 24px;
+    line-height: 1.8;
+  }
+  .social{
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  .p-social{
+    margin-left: 60px;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+/* /////////////////////user//////// */
+.continer-user{
+    position:absolute;
+    width: 36%;
+    margin-left: 8%;
+    margin-top: -580px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+}
+.head-user{
+    margin-bottom: 14px;
+}
+.patbtn{
+    width: 150px;
+    height: 200px;   
+    background-image: url(../images/Group23.png);
+    background-position: -10px -4px;
+    background-size:180px;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+.adminbtn{
+    width: 150px;
+    height: 200px;   
+    background-image: url(../images/Group22.png);
+    background-position: -10px -8px;
+    background-size:180px;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.drbtn{
+    width: 150px;
+    height: 200px;   
+    background-image: url(../images/Group21.png);
+    background-position: -10px -8px;
+    background-size:180px;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.patbtn:hover, .adminbtn:hover, .drbtn:hover {
+    opacity:0.5;
+    transform: translateY(-8px);
+}
+/* ///////////// */
+#login{
+    margin-top: 90px;
+}
+.continer-Login{
+    position:absolute;
+    width: 36%;
+    height: 340px;
+    margin-left: 54%;
+    margin-top: -464px;
+    text-align: left;
+ } 
+ .h-head{
+    text-transform: uppercase;
+    color: white;
+ }
+ .h-login{
+    text-transform: uppercase;
+ }
+ .btn-block{
+    width: 120px;
+    background-color:  #10556f;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: none;
+}   
+ .btn-forget{
+    width: 46%;
+    margin-left: 280px;
+    margin-bottom: 50px;
+    margin-top: 8px;
+    border: none;
+    color: #091A20;
+} 
+.continer-sign{
+    position:absolute;
+    width: 36%;
+    height: 340px;
+    margin-left: 14%;
+    margin-top: -534px;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+}
+.form-control{
+    width: 55%;
+}
+.form-control-1{
+    width: 90%;
+}
+#pass{
+    margin-top: 90px;
+}
+.continer-pass{
+    position:absolute;
+    width: 36%;
+    height: 340px;
+    margin-left: 54%;
+    margin-top: -424px;
+    text-align: left;
+    } 
+/* ////////////orthod///////// */
+.cont-ort{
+    margin-top: -560px;
+}
+.card-ort{
+   width: 80rem;
+   height: 500px;
+   
+}
+.card-img-or1{
+    border-radius: 10px;
+    
+}
+.card-or1{
+    width: 80%;
+}
+.card-body h2{
+    color: #1C95C0;
+}
+.card-img-or{
+    border-radius: 2px;
+}
+.card-head{
+    margin-right: 500px;
+    margin-top: 22px;
+    text-transform: capitalize;
+}
+.card-sec{
+    margin-right: 380px;
+}
+.card-s{
+    margin-top: -550px;
+}
+.card{
+    display:inline-block ;
+    margin-right: 35px;
+    margin-top: 6px;
+    
+}
+.card-or{
+    height: 500px;
+    border-radius: 10px;
+}
+
+
+ /* //////////////////////del */
+ .dental-clinic{
+    margin-top: 100px;
+ }
+ .dental-h{
+   color: #091A20;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-top: -680px;
+ }
+ .Pedodonti{
+    margin-top: -100px;
+ }
+ .dent-cont{
+  color: #091A20;
+  font-weight: 700;
+  font-size:24px ;
+  line-height: 1.9;
+  text-align: left;
+  text-transform: capitalize;
+ }
+ .cont-but{
+    width: 620px;
+    height: 540px;
+ }
+.teeth{
+    background-image: url(../images/teeth.png);
+}
+.child{
+    background-image: url(../images/child.png);
+}
+.ray{
+    background-image: url(../images/ray.png);
+}
+.Endo{
+    background-image: url(../images/Endodonzia.png);
+}
+.Orthodontics-d{
+    background-image: url(../images/Orthodontics.png);
+}
+.child2{
+    background-image: url(../images/child2.png);
+}
+.teeth, .child, .ray, .Endo, .Orthodontics-d,.child2{
+    width: 170px;
+    height: 190px;   
+    background-position: -12px -7px;
+    background-size:200px;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 26px;
+    color: #FFFFFF;
+    font-weight:800;
+}
+.teeth:hover, .child:hover, .ray:hover, .Endo:hover, .Orthodontics-d:hover, .child2:hover{
+    transform: translateY(-5px);
+}
+/* //////////////health///////////// */
+.health-clinic{
+    margin-top: 100px;
+ }
+ .health-h{
+   color: #091A20;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   margin-top: -680px;
+ }
+ .cont-but-h{
+    width: 620px;
+    height: 540px;
+    /* float: left; */
+    margin-right: 380px;
+    /* background-color: #000; */
+ }
+ .Pedodonti{
+    margin-top: -100px;
+ }
+ .health-cont{
+  color: #091A20;
+  font-weight: 700;
+  font-size:24px ;
+  line-height: 1.9;
+  text-transform: capitalize;
+ }
+ .health{
+    margin-left: -100%;
+    margin-top: -660px;
+ }
+
+.Map{
+    position: absolute;
+    width: 75%;
+    height: 438PX;
+    margin-left: 100px;
+    margin-top: -150px;
+    background-image: url(../images/map.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.googlemap_icon{
+    width: 52px;
+    margin-top: 7px;
+    margin-left: 170px;
+}
+.home_iconn{
+    position: absolute;
+    width: 6%;
+    margin-top: 183px;
+    margin-left: -25px;
+}
+.clinic_icon{
+    position: absolute;
+    width: 6%;
+    margin-top: 91px;
+}
+.location{
+    background-color: #FFFFFF;
+    width: 325px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 265px;
+    border-radius: 10px;
+    box-shadow: 7px 9px 5px #C0C0C0;
+}
+.location_icon{
+    width: 9%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.address{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 60px; 
+    margin-top:-35px;
+    line-height: 18px;
+    color:#091A20;
+}
+.hiddin_text{
+    border: hidden;
+    outline: none;
+}
+ .cont-but{
+    width: 620px;
+    height: 540px;
+    /* margin-right: -80px; */
+    margin-top: -80px;
+    /* background-color: #000; */
+ }
+.teeth{
+    background-image: url(../images/teeth.png);
+}
+.child{
+    background-image: url(../images/child.png);
+}
+.ray{
+    background-image: url(../images/ray.png);
+}
+.Endo{
+    background-image: url(../images/Endodonzia.png);
+}
+.Orthodontics-d{
+    background-image: url(../images/Orthodontics.png);
+}
+.child2{
+    background-image: url(../images/child2.png);
+}
+.teeth, .child, .ray, .Endo, .Orthodontics-d,.child2{
+    width: 170px;
+    height: 190px;   
+    background-position: -12px -7px;
+    background-size:200px;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-left: 26px;
+    color: #FFFFFF;
+    font-weight:800;
+}
+.teeth:hover, .child:hover, .ray:hover, .Endo:hover, .Orthodontics:hover, .child2:hover{
+    transform: translateY(-5px);
+}
+/* /* //////////////appointment////// */
+.cont-appoint-ap{
+    margin-top: 100px;
+    margin-left: 280px;
+}
+.cont-appoint-ap2{
+    margin-top: 220px;
+}
+.cont-app-h{
+    color: #091A20;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -1410px;
+}
+.head-po{
+    color: #1C95C0;
+    margin-top: -140px;
+    margin-bottom: 18px;
+}
+.head-po-det{
+    color: #1C95C0;
+    margin-top: -80px;
+    margin-right: 60px;
+    margin-bottom: 18px;
+}
+.spanToday{
+    text-align: left;
+    margin-left: 14rem;
+    text-transform: capitalize;
+    color: rgb(87, 87, 87,0.5);
+}
+.spanToday-det{
+    text-align: left;
+    margin-left: 6rem;
+    margin-top: -10px;
+    font-size: 10px;
+    text-transform: capitalize;
+    color: rgb(87, 87, 87,0.5);
+}
+.time{
+    color: rgb(87, 87, 87,0.5);
+     margin-left: 23rem; 
+    margin-top: -80px;
+}
+.time-det{
+    color: rgb(87, 87, 87,0.5);
+     margin-left: 160px; 
+    margin-top: -64px;
+    font-size: 10px;
+}
+.cont-app-n{
+    color: #091A20;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: -686px;
+}
+.head-point{
+    color: #091A20;
+}
+.conatiner-appoint{
+    width: 580px;
+    height: 560px;
+    margin-top: -110px;
+    margin-left: -140px;
+ }
+.box-point{
+    height: 140px;
+    width:500px ;
+    position: relative;
+    margin-top: 50px;
+    border-radius:10px;
+    background: #fff;
+ }
+.delapp-h{
+    text-align: center;
+    text-transform: uppercase;
+    color: #091A20;
+    margin-right: 80px;
+    margin-top: 28px;
+}
+.card .box-point .img{
+    position: absolute;
+    margin-left: -300px;
+   }
+   .box-point img{
+      height: 180px;
+      width: 180px;
+      margin-top: -20px;
+      margin-left: -240px;
+   }
+.box-point .form-b{
+    margin-top: -150px;
+    margin-left: 160px;
+}
+ .head-point-app{
+    color: #1C95C0;
+    position: absolute;
+    text-transform: capitalize;
+    margin-top: 77px;
+    margin-left: 90px;
+ }
+ .img-card-app{
+ margin-top: 160px;
+ margin-left:40px ;
+ }
+ .par-app{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center; 
+    margin-top: 26px;
+    color: #091A20;
+ }
+ .bottom-appoint{
+    margin-left: -200px;
+ }
+ .Details_center{
+    text-align: center;
+    color: #1C95C0;
+    margin-top: 16px;
+    /* font-size: 18px; */
+}
+.appointe_form{
+    color: #1C95C0;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+  
+  }
+  .group20{
+      width: 65%;
+      margin-left: 60px;
+      margin-top: 40px;
+  }
+  .p_note{
+      text-align: center;
+      font-size:17px;
+      font-weight: 600;
+      line-height: 27px;
+  }
+  
+  .box-sel3{
+    height: 75px;
+    width: 290px;
+    text-align: center;
+    position: relative;
+    margin-left: px;
+    margin-top: -85px;
+    border-radius:10px;
+    background: rgb(255, 255, 255);
+    box-shadow:  5px 5px 5px 0px #C0C0C0, inset 0px 5px 5px #C0C0C0;
+  }
+  
+  .form-c{
+    margin-top: -90px;
+    margin-left: 75px;
+  }
+  .a-t2{
+    width: 25px;
+    height: 20px;
+    font-size: 18px;
+    color: #1C95C0;
+    margin-left: -150px;
+    margin-top: 2px;
+  }
+  .day2{
+    width: 100px;
+    margin-left: -75px;
+    margin-top: -56px;
+    opacity: 0.4;
+  }
+  
+  .do-s_img2{
+    width: 32%;
+    height: 98px;
+    margin-top: -10px;
+    margin-left: -185px;
+  }
+  .date_time2{
+    margin-top: -33px;
+    margin-left: 10px;
+    opacity: 0.4;
+  }
+  .a-t2, .day2, .date_time2 {
+    border: hidden;
+    outline: none;
+  }
+  .editbtn{
+    position: absolute;
+    margin-left: 740px;
+    margin-top: 10px;
+    width: 150px;
+    height: 35px;
+    border-radius: 7px;
+    border: hidden;
+    background-color: #FFFFFF;
+    color: #1C95C0;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .card-patDet{
+      margin-top: 100px;
+      margin-right: 118px;
+      border-radius: 16px;
+      float: right;
+      box-shadow: 12px 12px 15px rgba(0,0,0,0.1);
+  }
+  .patDet-head{
+      margin-top: 100px;
+      margin-bottom: 28px;
+      color: #1C95C0;
+      font-size: 22px;
+      font-weight: bold;
+      text-transform: capitalize;
+  }
+  .patD-par{
+      color: #091A20;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin-top: 18px;
+  }
+  .patientDet-cont{
+      width: 50%;
+      margin-top: 18px;
+      float:left;
+  }
+/* ////////////////profile/////////////// */
+.pro-img{
+    margin-top: 100px;
+}
+.profile-cont{
+    margin-top: -500px;
+}
+.card-pr{
+    color: #fff; 
+    width: 500px;
+    margin-left: 320px;
+    margin-top: -720px;
+    height: 480px;
+    box-shadow: 12px 12px 15px rgba(0,0,0,0.1);
+ }
+ .profile-img-cont{
+    margin-top: -200px;
+ }
+ .icon-folder{
+    margin-left: 266px;
+    margin-top: 16px;
+    font-size: 24px;
+ }
+.rect{
+    position: absolute;
+    height: 470px;
+    width: 80%;
+    background-image: url(../images/Rectangle\ 1803.png);
+    margin-top: 120px;
+}
+.formDiv{
+     margin-top: -500px;
+     margin-left:219px; 
+     height: 545px; 
+     width: 450px;
+}
+.personal_photo{
+    width: 140px;
+    margin-top: -10px;
+    margin-left: 44px;
+}
+
+.separator_line{
+    border-left: 2px solid rgba(112, 108, 108, 0.13);
+    height: 85px;
+    position: absolute;
+    left: 50%;
+     margin-left: 210px;
+}
+.cont-fev{
+    background-color: #000;
+    width: 50%;
+    float: right;
+    margin-top: -500px;
+    margin-left: 220px;
+}
+.MapDiv{
+    margin: 460px 453px; 
+     height:585px;
+}
+.person_map{
+    margin:-300px 70px;
+     height: 250px;
+}
+.home_icon2{
+    margin: -175px 222px;
+}
+/* ////////////Appointment Booling////////////////////////// */
+.cont-app-c{
+    color: #091A20;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -1210px;
+    font-weight: bold;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-spacing: 2px;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.elegant-calencar {
+    width: 25em;
+    height: 31em;
+    margin-left: 28px;
+    margin-top: 100px;
+    border: 1px solid #fff;
+    -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px #fff;
+    text-align: center;
+    position: relative;
+}
+#header {
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    height: 14em;
+    background-color: #2a3246;
+    margin-bottom: 1em;
+}
+
+.pre-button, .next-button {
+    margin-top: 2em;
+    font-size: 3em;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+    line-height: 1em;
+    color: #FB83A0;
+    border-radius: 50%;
+}
+
+.pre-button:hover, .next-button:hover {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.pre-button:active,.next-button:active{
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+.pre-button {
+    float: left;
+    margin-left: 0.5em;
+}
+
+.next-button {
+    float: right;
+}
+
+.head-info {
+    float: left;
+    width: 16em;
+}
+
+.head-day {
+    margin-top: 30px;
+    font-size: 8em;
+    line-height: 1;
+    color: #fff;
+}
+
+.head-month {
+    margin-top: 20px;
+    font-size: 2em;
+    line-height: 1;
+    color: #fff;
+}
+
+#calendar {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#calendar tr {
+    height: 2em;
+    line-height: 2em;
+}
+
+thead tr {
+    color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+tbody tr {
+    color: #252a25;
+}
+
+tbody td{
+    width: 14%;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition:all 0.2s ease-in;
+    transition:all 0.2s ease-in;
+}
+
+tbody td:hover, .selected {
+    color: #fff;
+    background-color: #2a3246;
+    border: none;
+}
+
+tbody td:active {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+}
+
+#today {
+    background-color: #FB83A0;
+    color: #fff;
+    font-family: serif;
+    border-radius: 50%;
+}
+
+#reset {
+    display: block;
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+    z-index: 999;
+    color: #fff;
+    font-family: serif;
+    cursor: pointer;
+    padding: 0 0.5em;
+    height: 1.5em;
+    border: 0.1em solid #fff;
+    border-radius: 4px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#reset:hover {
+    color: #FB83A0;
+    border-color: #FB83A0;
+}
+
+#reset:active{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);     
+}
+.head-cal{
+    margin-top: 60px;
+    margin-left: -226px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.card-body-m{
+    width: 440px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 40%;
+    margin-top: 8px;
+    text-transform: capitalize;
+    color: #1C95C0;
+}
+.card-body-b{
+    width: 440px;
+    height: 140px;
+    border-radius: 40%;
+    
+}
+.card-body-b button{
+    width: 90px;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 18px;
+}
+.button-Ok{
+    width: 245px;
+    height: 70px;
+    color: #fff;
+    background-color: #1C95C0;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    margin-top: -380px;
+    margin-left: 912px;
+ }
+/* /////////////Conversation///////////// */
+.personal_photo2{
+    width: 140px;
+    margin-left: 50px;
+    margin-top: -80px; 
+}
+.mesg_body{
+    background-image: url(../images/rr.png);
+    background-size:70%;
+    background-position-x: 90px;
+    background-position-y: -30px;
+    background-repeat: no-repeat;
+}
+/* /////////////orth2///////////////// */
+.pngegg5656{
+    position: absolute;
+    width: 25%;
+    height: 89vh;
+    margin-top: -47px;
+    margin-left: -45px;
+}
+.dr_photo{
+    position: absolute;
+    width: 21%;
+    height: 73%;
+    margin-left: 129px;
+    margin-top: 21px;
+    background-color: #1C95C0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-image: url(../images/dr.png);
+    background-size: 87%;
+    background-repeat: no-repeat;
+    background-position-x: 25px;
+    background-position-y: 45px;
+}
+.dr_info{
+    position: absolute;
+    width: 60%;
+    height: 73%;
+    margin-top: 21px;
+    background-color: #FFFFFF;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Roboto;
+}
+.dr_details{
+    margin-left: 20px;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.dr_name{
+    font-size: 26px; 
+    font-weight: 500;
+    color: #1C95C0;
+    margin-top: -10px;
+}
+.dr_specialty{
+    font-size: 17px; 
+    font-weight: 400;
+    margin-top: -5px;
+}
+.pat_div{
+    width:8%; 
+    margin-top: -9px; 
+}
+.hiddin_text2{
+    border: hidden;
+    outline: none;
+    margin-top: -12px;
+    position: absolute;
+    height: 17px;
+}
+.pat_exp_color{
+    font-size: 12px; 
+    color: #B4DCEA;
+}
+.exp_div{
+    width:8%;
+    margin-top: -45px; 
+}
+.pat_div, .exp_div{
+    line-height:20px; 
+    display: inline-Block;
+}
+.dr_advice{
+    font-weight: 500;
+    line-height: 29px;
+    margin-top: -4px;
+    margin-bottom: 8px;
+}
+.workplace{
+    color:#1C95C0; 
+    font-weight:500; 
+    font-size: 20px;
+}
+.hospital_img{
+    width: 32%;
+    height: 12%;
+    margin-left: -10px;
+}
+.hospital_name ,.hospital_name2{
+    position: absolute;
+    text-align: center;
+    background-color: #1C95C0;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 13px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.hospital_name{
+    width: 32%;
+}
+.hospital_name2{
+    width: 32%;
+    margin-left: 148px;
+}
+.right_buttons{
+    position: absolute;
+    width: 31%;
+    height: 13%;
+    margin-left: 500px;
+    margin-top: -70px;
+    background-color: #F5F5F5;
+    border-radius: 9px;
+    box-shadow: inset 5px 5px 5px #C0C0C0
+}
+.consult_book_btn{
+    width: 230px;
+    height: 45px;
+    background-color: #1C95C0;
+    color: #F5F5F5;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 9px;
+    margin-top: 8px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+/* /////////////////////// */
